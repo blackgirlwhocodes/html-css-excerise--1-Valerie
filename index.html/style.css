@@ -1,25 +1,19 @@
-body{font-family: 'Arial'}
-header{display:flex;
-align-items: center;
-justify-content: space-between;}
-
-
-
-
-
-
-
-
-.input [type=username], input [type=password] {
-  width: 100%;
-  padding: 15px;
-  margin: 5px 0 22px 0;
-  display: inline-block;
-  border: none;
-  background: #f1f1f1;
+body{
+  display: flex;
+  flex-direction: column;
+  color: white;
+  border: 0px;
+  padding: 25px;
+  background-color: peachpuff;
+  margin: 5px 5px;
 }
 
-.loginbtn {
-    background-color: #9DD8D4;
-
+span{
+  padding: 100px;
+  background-color: gray;
+  height: 250px;
+  width: 300px;
+}
+.loginbutton{
+  display: inline;
 }
